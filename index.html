@@ -12,6 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!-- CKEDITOR -->
+    <script src="https://cdn.ckeditor.com/ckeditor5/12.2.0/classic/ckeditor.js"></script>
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap" rel="stylesheet">
     <!-- FOOTER -->
@@ -162,20 +164,20 @@
                             <h2 style="margin-top: 3%; text-align: center;">Add Article</h2>
                             <hr style="width: 96%; margin-left: 4.5%">
                             <form>
-                                <div class="form-group row" style="margin-right: 1%; margin-left: 1%;">
+                                <div class="form-group row">
                                     <label class="col-2" style="margin-top: 1%" for="img">Image:</label>
                                     <div class="custom-file col-10">
                                         <input type="file" class="custom-file-input" id="customFile">
                                         <label class="custom-file-label" for="customFile" style="text-align: left;">Choose file</label>
                                     </div>
                                 </div>
-                                <div class="form-group row" style="margin-right: 1%; margin-left: 1%;">
+                                <div class="form-group row">
                                     <label class="col-2" style="margin-top: 1%" for="title">Title:</label>
                                     <input type="text" class="col-10 form-control" id="titleArticle">
                                 </div>
-                                <div class="form-group row" style="margin-right: 1%; margin-left: 1%;">
-                                    <label class="col-2" style="margin-top: 1%" for="body">Body:</label>
-                                    <textarea type="text" class="col-10 form-control" id="bodyArticle" style="height: 150px;"></textarea>
+                                <div class="form-group row">
+                                    <label class="col-2" style="margin-top: 1%" for="content">Body:</label>
+                                    <textarea type="text" class="col-10 form-control" name="content" id="bodyArticle"></textarea>
                                     <button type="button" class="btn btn-dark" type="submit" style="margin-top: 3%; margin-left: 6%; width: 100%;">Add Article</button>
                                 </div>
                             </form>
@@ -194,6 +196,7 @@
                                     <p class="card-text" style="float: left"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
+
                             <!-- ARTICLE 2 -->
                             <!-- <h2 style="margin-top: 3%; text-align: center;">Article List</h2> -->
                             <hr style="width: 100%;">
@@ -227,5 +230,12 @@
         </div>
         <!-- <button href="#top" class="btn btn-light rounded-circle" style="height: 50px; width: 50px; color: #343A40; float: right; margin-right: 7%; margin-bottom: 0.5%; margin-top: 0.5%; opacity: 1;"> <i class='fas fa-chevron-up'></i></button> -->
     </div>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#bodyArticle' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
 </body>
 </html>
