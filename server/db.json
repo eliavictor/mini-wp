@@ -1,0 +1,63 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "elia",
+      "email": "elia@mail.com",
+      "password": "elia123",
+      "createdAt": "6/17/2019"
+    },
+    {
+      "name": "elias",
+      "email": "elias@mail.com",
+      "password": "elias123",
+      "id": 2
+    }
+  ],
+  "article": [
+    {
+      "id": 1,
+      "img": "https://i.ytimg.com/vi/X4Zwpl7VbhA/maxresdefault.jpg",
+      "title": "Joker (2019)",
+      "body": "A Joker Film by DC Comics",
+      "createdAt": "6/17/2019"
+    },
+    {
+      "id": 2,
+      "img": "https://wallpapercave.com/wp/wp2024954.jpg",
+      "title": "Test",
+      "body": "test",
+      "createdAt": "6/17/2019"
+    },
+    {
+      "img": "https://images6.alphacoders.com/955/thumb-1920-955328.jpg",
+      "title": "Dark Phoenix",
+      "body": "This is the story of one of the X-Men’s most beloved characters, Jean Grey, as she evolves into the iconic DARK PHOENIX. During a life-threatening rescue mission in space, Jean is hit by a cosmic force that transforms her into one of the most powerful mutants of all.",
+      "id": 3
+    },
+    {
+      "img": "https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1559403469315-IET6YVK2FNDL37CI6RR0/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/a-new-spider-man-far-from-home-trailer-reveals-where-spidey-gets-his-new-red-and-black-suit-social.jpg?format=2500w",
+      "title": "Spider-Man: Far From Home",
+      "body": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+      "id": 4
+    },
+    {
+      "img": "https://hacktiv8.com/img/ogdefault.jpg",
+      "title": "Hacktiv8",
+      "body": "Jalan Sultan Iskandar Muda No.7, RT.5/RW.9, Kebayoran Lama Selatan, Kebayoran Lama, RT.5/RW.9, Kby. Lama Sel., Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240",
+      "id": 5
+    },
+    {
+      "img": "https://1.bp.blogspot.com/-R8ydKl3BVYI/UNk717mw6lI/AAAAAAAAEWM/gHvtTSsGNW4/s1600/Logo+Bank+CIMB+Niaga.jpg",
+      "title": "CIMB CLICKS",
+      "body": "Internet Banking CIMB CLICKS",
+      "id": 6
+    },
+    {
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6320/6320424cv11d.jpg",
+      "title": "Alienware",
+      "body": "Alienware new Laptop",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+node_modules
+.env
+.cache
+dist
+miniWP-3ff3114af921.json

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini-WP</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- FONTAWESOME ICON -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap" rel="stylesheet">
+    <!-- VUE -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- vueWysiwyg -->
+    <script src="assets/js/vueWysiwyg.js"></script>
+    <link rel="stylesheet" href="assets/css/vueWysiwyg.css">
+    <!-- AXIOS -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- SWAL -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!-- FOOTER -->
+    <style>
+        a {
+            text-decoration: none;
+        }
+        body {
+            font-family: 'Gentium Basic', serif;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #343A40;
+            color: white;
+            text-align: center;
+        }
+        .sidebar {
+            position: fixed;
+            width: auto;
+            align-content: flex-start
+        }
+        li {
+            margin-left: 5%;
+        }
+        li:first-child {
+            margin-left: 0;
+        }
+        .default {cursor: default;}
+        .pointer {cursor: pointer;}
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <!-- COMPONENTS -->
+    <script src="assets/components/headers.js"></script>
+    <script src="assets/components/card.js"></script>
+    <!-- MAIN.JS -->
+    <script src="/src/main.js"></script>
+</body>
+</html>
