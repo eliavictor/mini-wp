@@ -41,9 +41,9 @@ class UserController {
             email: req.body.email,
             password: req.body.password
         }
-        console.log(newUser)
         User.create(newUser)
         .then(user => {
+            // console.log(newUser)
             res.status(200).json(user)
         })
         .catch(next)

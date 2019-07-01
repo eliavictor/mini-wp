@@ -19,7 +19,7 @@ const userSchema = new Schema({
         }, {
             validator: function (input) {
                 return mongoose.model('User', userSchema)
-                    .findOne({ _id: { ne: this._id }, email: input })
+                    .findOne({ email: input })
                     .then(data => { if (data) return false })
             },
             message: 'Email already registered!'

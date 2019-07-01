@@ -1,6 +1,6 @@
 const jwt = require('../helpers/jwt')
-const User = require('../models/user')
-const Article = require('../models/article')
+const User = require('../../../mini-wp/server/models/user')
+const Article = require('../../../mini-wp/server/models/article')
 
 module.exports = {
   Authentication(req, res, next) {
